@@ -5,7 +5,7 @@ import joblib
 from sklearn.ensemble import RandomForestClassifier
 from predictions import get_prediction, ordinal_encoding
 
-model = joblib.load("./Notebooks/extree_model_final.joblib")
+model = joblib.load("./Notebook/extree_tuned_final.joblib")
 
 st.set_page_config(page_title="Accident Severity Prediction App",
                    page_icon="🚧", layout="wide")
