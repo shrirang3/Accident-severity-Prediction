@@ -106,7 +106,7 @@ def main():
 
 
         age_band_driver=st.selectbox("Select Age Band of Driver: ", options=options_age)
-        casualties = st.slider("Hour of Accident: ", 1, 8, value=0, format="%d")
+        casualties = st.slider("Number of Casualities: ", 1, 8, value=0, format="%d")
         day_of_week = st.selectbox("Select Day of the Week: ", options=options_day)
         vehicles_involved = st.slider("Vehicles involved: ", 1, 7, value=0, format="%d")
         light_conditions=st.selectbox("Select Light Conditions: ", options=options_light_conditions)
